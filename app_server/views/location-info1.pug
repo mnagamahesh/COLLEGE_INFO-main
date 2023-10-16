@@ -1,0 +1,80 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 NIT Warangal
+      .photo1  
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+          p Warangal , Telangana 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title College Timings 
+            .panel-body
+              p Monday - Friday : 9:00am - 3:00pm
+              p Saturday : 9:00am - 12:30pm
+              p Sunday & Second Saturday : Holiday 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Top Recruiters 
+            .panel-body
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Amazon 
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Microsoft
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Infosys 
+              | &nbsp;
+        
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new')     Add review
+              h2.panel-title Student reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Dharma  
+                    small.reviewTimestamp 30 July 2023
+                  .col-xs-12
+                    pGreat Companies start coming after you complete your 2nd year for internships. Many big companies have visited the college for internships and placements if you have the required skillset and preparation you can get placement.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Shiva   
+                    small.reviewTimestamp 2 June  2023
+                  .col-xs-12
+                    p  Hostel Rooms, Facilities,And Mess Food Is Worst.
+    .col-xs-12.col-md-3
+      p.lead
+        | National Institute of Technology Warangal (NIT Warangal or NITW) is a public technical and research university in Warangal, India. NIT Warangal was established in 1959. NIT Warangal has a campus size of about 248 Acres.
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.

@@ -1,0 +1,80 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 IIIT Hyderabad 
+       .photo2
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+          p Hyderabad, Telangana 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title College Timings 
+            .panel-body
+              p Monday - Friday : 9:00am - 3:00pm
+              p Saturday : 9:00am - 12:30pm
+              p Sunday : Holiday 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Top Recruiters 
+            .panel-body
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Goldman Sachs 
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Flipkart 
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Google
+              | &nbsp;
+       
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new')     Add review
+              h2.panel-title Student reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Rakesh  
+                    small.reviewTimestamp 24 August 2023
+                  .col-xs-12
+                    pGreat he Peer Group And The Support Of The Seniors., Research Facilities And Opportunities To Interact With Best Faculties And Discuss Your Idea., The Festival Celebration And The Campus Placements.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Umesh   
+                    small.reviewTimestamp 28 July 2023
+                  .col-xs-12
+                    p  The Smaller Area Of 60 Acres With Less Space., Canteens Can Have More Options With Various Dishes.
+    .col-xs-12.col-md-3
+      p.lead
+        | IIIT Hyderabad is the first private deemed university founded through a non-profit public-private partnership (N-PPP). In the NIRF 2023 rankings for the engineering category, the institute is ranked 55.
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.

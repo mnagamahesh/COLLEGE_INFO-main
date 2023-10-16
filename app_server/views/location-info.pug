@@ -1,0 +1,83 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1 IIT Hyderabad
+      .photo 
+        
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
+          p Hyderabad, Telangana 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title College Timings 
+            .panel-body
+              p Monday - Friday : 9:00am - 3:00pm
+              p Saturday : 9:00am - 12:30pm
+              p Sunday : Holiday 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Top Recruiters 
+            .panel-body
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Microsoft 
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Flipkart 
+              | &nbsp;
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
+                | &nbsp;Adobe 
+              | &nbsp;
+       
+             
+            
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new')     Add review
+              h2.panel-title Student reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Dhawal 
+                    small.reviewTimestamp 24 August 2023
+                  .col-xs-12
+                    pGreat Hostels Are Provided. You Get A Lot Of Opportunities To Pursue Your Interest., Placement Is Really Great And We Can Also Use Our 'IIT Tag' To Get Into Good Universities Abroad.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Charlie  
+                    small.reviewTimestamp 28 July 2023
+                  .col-xs-12
+                    p  As The Hostels Are New And Something Are In Constructions Phase, We Face Some Difficulties., A Lot Of Competition Is There. Which Is Good, But You May Feel Lonely In The College.
+    .col-xs-12.col-md-3
+      p.lead
+        | IIT Hyderbad is a research and innovation University located in the Kandi, Sagareddy District of Telangana. Founded in 2008, IIT Hyderbad has been able to build a world class technical and research infrastructure in a very short span of time.
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.
